@@ -1,0 +1,8 @@
+## Steps 
+
+Pour créer le fichier core exécuter les étapes suivantes:
+    - ulimit -c unlimited
+    - sudo sysctl -w kernel.core_pattern=core
+    - compiler le binaire
+    - exécuter le binaire
+    - vérifier la création du fichier core. 
